@@ -1,4 +1,3 @@
-
 # Connect MySQL Session Store
 
 Simple MySQL Session Store for [Connect() Framework][1] session Middleware
@@ -131,9 +130,8 @@ There are some other implementations, that are maybe more stable and tested.
  - [connect-mysql][4] by nathan-lafreniere, License: MIT
  - [connect-mysql-session][5] by CarnegieLearning , License: own
 
-Both did not get my needs. 
-connect-mysql need to create and pass in a mysqlclient instance
-
+Both did not get my needs.
+connect-mysql need to create and pass in a mysqlclient instance.
 connect-mysql-session uses sequelize, which is a bit too much 
 overhead for 3 columns and 4 sql statements
 
