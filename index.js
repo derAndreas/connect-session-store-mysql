@@ -1,2 +1,2 @@
 
-module.exports = require('./lib/railway-session-store-mysql');
+module.exports = require('./lib/connect-session-store-mysql');
